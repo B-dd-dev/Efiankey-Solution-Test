@@ -1,0 +1,23 @@
+header {
+    font-weight: bold;
+    font-size: 30px;
+    background-image: linear-gradient(white,rgb(218, 218, 218));
+    padding: 20px 0;
+    text-align: center;
+}
+header img {
+    vertical-align: middle;
+    width: 30px;
+    margin-right: 18px;
+}
+
+@media (max-width: 500px) {
+    header {
+        padding: 10px 0;
+        font-size: 20px;
+    }
+    header img {
+        width: 20px;
+        margin-right: 10px;
+    }
+}
