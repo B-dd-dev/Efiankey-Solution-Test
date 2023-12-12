@@ -137,7 +137,7 @@ section {
     
     .chatbox {
         padding: 10px 15px;
-        height: 320px;
+        height: calc(100% - 200px);
     }
     .sender {
         font-size: 12px;
