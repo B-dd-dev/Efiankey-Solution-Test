@@ -30,7 +30,7 @@ function userInputText() {
 function chatBotReply(text, chatbox) {
     let reply = "";
     console.log(text);
-    if (text === "Jamie") {
+    if (text.toLowerCase() === "jamie") {
         reply = "Can I help you?";
     } else if (text.includes("?") && text.includes("!")) {
         reply = "Please give me some time to resolve the issue.";
